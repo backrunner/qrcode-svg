@@ -1,6 +1,6 @@
 {
-  "name": "qrcode-svg",
-  "version": "1.1.0",
+  "name": "@backrunner/qrcode-svg",
+  "version": "1.2.0",
   "description": "A simple QR Code generator in pure JavaScript",
   "author": "papnkukn",
   "license": "MIT",
@@ -9,6 +9,10 @@
     "minify": "node minify.js",
     "test": "nodeunit test"
   },
+  "files": [
+    "bin",
+    "dist"
+  ],
   "bin": {
     "qrcode-svg": "bin/qrcode-svg.js"
   },
